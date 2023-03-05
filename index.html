@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <title>Quiz Game</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="container">
+        <h1>Quiz Game</h1>
+        <p id="quote" class="quote-display"></p>
+        <div class="quote-container">
+            <p id="quote-text">Loading...</p>
+            <p id="quote-id" style="display:none;"></p>
+            <form id="answer-form">
+                <input type="text" id="answer-input" placeholder="Your answer...">
+                <button type="submit" id="submit-button">Submit</button>
+                <button type="button" id="new-quote-button">New Quote</button>
+            </form>
+            <p id="message-return" style="display:none;"></p>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+
+</html>
